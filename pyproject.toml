@@ -3,9 +3,12 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "mateex"
-version = "1.0.0"
-description = "Libreria matematica hecha por Nico"
+name = "matekit"
+version = "1.0.3"
+description = "Matekit is a modern Python mathematics library designed to make calculations, graphing, algebra, geometry, statistics, and mathematical utilities simple and powerful. It provides an easy-to-use API for students, developers, and anyone working with mathematics in Python."
 authors = [
   {name = "Nico"}
 ]
+
+[project.scripts]
+matekit = "matekit.cli:main"

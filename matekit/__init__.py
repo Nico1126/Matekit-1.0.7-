@@ -7,3 +7,5 @@ from .geometria import *
 from .estadistica import *
 from .fisica import *
 from .conversiones import *
+from .graficas import *
+from .calculadora import *

@@ -1,4 +1,4 @@
 import mateex
 
-res = mateex.suma(1, 2)
+res = mateex.km_a_millas(1, 2)
 print(res)
