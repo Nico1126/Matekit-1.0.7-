@@ -9,3 +9,4 @@ from .fisica import *
 from .conversiones import *
 from .graficas import *
 from .calculadora import *
+from .solver import *
