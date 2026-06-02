@@ -14,3 +14,15 @@ def area_triangulo(base, altura):
 
 def volumen_cubo(lado):
     return lado ** 3
+
+def volumen_esfera(r):
+    return (4/3) * PI * (r ** 3)
+
+def volumen_cilindro(r, altura):
+    return PI * (r ** 2) * altura
+
+def area_trapecio(base_mayor, base_menor, altura):
+    return ((base_mayor + base_menor) * altura) / 2
+
+def hipotenusa(cateto1, cateto2):
+    return (cateto1**2 + cateto2**2) ** 0.5

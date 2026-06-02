@@ -1,39 +1,43 @@
 import sys
-import inspect
+import ast
 import matekit
+
+
+def parse_arg(arg):
+    try:
+        return ast.literal_eval(arg)
+    except Exception:
+        return arg
+
 
 def main():
     if len(sys.argv) < 2:
-        print("Uso: matekit <funcion> [argumentos]")
+        print("Usage:")
+        print("  matekit <function> [args]")
         return
 
-    nombre_funcion = sys.argv[1]
-
-    # Verifica si la función existe
-    if not hasattr(matekit, nombre_funcion):
-        print(f"La funcion '{nombre_funcion}' no existe.")
-        return
-
-    funcion = getattr(matekit, nombre_funcion)
-
-    # Verifica que sea función
-    if not callable(funcion):
-        print(f"'{nombre_funcion}' no es una funcion.")
-        return
+    func_name = sys.argv[1]
 
     try:
-        # Convierte argumentos a float
-        args = [float(arg) for arg in sys.argv[2:]]
+        func = getattr(matekit, func_name)
+    except AttributeError:
+        print(f"Function '{func_name}' not found")
+        return
 
-        resultado = funcion(*args)
+    args = [parse_arg(arg) for arg in sys.argv[2:]]
 
-        print(resultado)
+    try:
+        result = func(*args)
 
-    except TypeError:
-        print("Cantidad de argumentos incorrecta.")
+        if result is not None:
+            print(result)
 
-    except ValueError:
-        print("Los argumentos deben ser numeros.")
+    except TypeError as e:
+        print(f"Argument error: {e}")
+
+    except Exception as e:
+        print(f"Error: {e}")
+
 
 if __name__ == "__main__":
     main()

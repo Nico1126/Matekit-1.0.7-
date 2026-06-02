@@ -1,4 +1,5 @@
 pyproject.toml
+readme.md
 matekit/__init__.py
 matekit/algebra.py
 matekit/aritmetica.py
@@ -11,6 +12,7 @@ matekit/fisica.py
 matekit/geometria.py
 matekit/graficas.py
 matekit/lineal.py
+matekit/solve.py
 matekit/solver.py
 matekit/trigonometria.py
 matekit.egg-info/PKG-INFO

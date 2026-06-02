@@ -1,6 +1,59 @@
 Metadata-Version: 2.4
 Name: matekit
-Version: 1.0.4
+Version: 1.0.7
 Summary: Matekit is a modern Python mathematics library designed to make calculations, graphing, algebra, geometry, statistics, and mathematical utilities simple and powerful. It provides an easy-to-use API for students, developers, and anyone working with mathematics in Python.
 Author: Nico
+Description-Content-Type: text/markdown
 Requires-Dist: sympy
+
+# Matekit
+
+Matekit
+
+Matekit is a modern Python mathematics library designed to make calculations, graphing, algebra, geometry, statistics, and mathematical utilities simple and powerful. It provides an easy-to-use API for students, developers, and anyone working with mathematics in Python.
+
+With Matekit, you can perform basic operations, solve equations, work with matrices, generate graphs, and use advanced mathematical tools in a clean and intuitive way.
+
+## Features
+
+1. Basic math operations
+2. Algebra utilities
+3. Geometry formulas
+4. Statistics functions
+5. Matrix operations
+6. Function graphing with Matplotlib
+7. Random math generators
+8. Unit and temperature converters
+9. Error handling and clean outputs
+10. Easy integration into Python projects
+11. Command Line Interface (CLI) support
+
+## Example
+
+```python
+from matekit import suma, graficar_cuadratica
+
+print(suma(5, 3))
+```
+
+## Goal
+
+Matekit aims to become a flexible and beginner-friendly open-source math toolkit for Python, combining simplicity with powerful mathematical features.
+
+## Instalación
+
+```bash
+pip install matekit
+```
+
+## Actualizar
+
+```bash
+pip install --upgrade matekit
+```
+
+## Pagina Web
+```bash
+https://sites.google.com/view/mateex-pypackage/
+```
+

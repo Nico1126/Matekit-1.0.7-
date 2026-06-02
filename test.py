@@ -1,4 +1,4 @@
-import mateex
+import matekit
 
-res = mateex.km_a_millas(1, 2)
+res = matekit.solve("2+2")
 print(res)

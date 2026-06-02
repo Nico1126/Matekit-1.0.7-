@@ -1,11 +1,13 @@
-\# Mateex
-Mateex
+# Matekit
 
-Mateex is a modern Python mathematics library designed to make calculations, graphing, algebra, geometry, statistics, and mathematical utilities simple and powerful. It provides an easy-to-use API for students, developers, and anyone working with mathematics in Python.
+Matekit
 
-With Mateex, you can perform basic operations, solve equations, work with matrices, generate graphs, and use advanced mathematical tools in a clean and intuitive way.
+Matekit is a modern Python mathematics library designed to make calculations, graphing, algebra, geometry, statistics, and mathematical utilities simple and powerful. It provides an easy-to-use API for students, developers, and anyone working with mathematics in Python.
 
-Features
+With Matekit, you can perform basic operations, solve equations, work with matrices, generate graphs, and use advanced mathematical tools in a clean and intuitive way.
+
+## Features
+
 1. Basic math operations
 2. Algebra utilities
 3. Geometry formulas
@@ -17,28 +19,33 @@ Features
 9. Error handling and clean outputs
 10. Easy integration into Python projects
 11. Command Line Interface (CLI) support
-Example
-from mateex import suma, graficar_cuadratica
+
+## Example
+
+```python
+from matekit import suma, graficar_cuadratica
 
 print(suma(5, 3))
+```
 
-graficar_cuadratica()
+## Goal
 
-Example graph:
+Matekit aims to become a flexible and beginner-friendly open-source math toolkit for Python, combining simplicity with powerful mathematical features.
 
-y=x
-2
-Installation
-pip install mateex
-Goal
-
-Mateex aims to become a flexible and beginner-friendly open-source math toolkit for Python, combining simplicity with powerful mathematical features.
-
-\## Instalación
-
-
+## Instalación
 
 ```bash
+pip install matekit
+```
 
-pip install mateex
+## Actualizar
+
+```bash
+pip install --upgrade matekit
+```
+
+## Pagina Web
+```bash
+https://sites.google.com/view/mateex-pypackage/
+```
 
