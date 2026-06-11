@@ -38,6 +38,12 @@ Matekit aims to become a flexible and beginner-friendly open-source math toolkit
 pip install matekit
 ```
 
+## Instalación por medio de app
+
+```bash
+https://drive.google.com/file/d/1WpNzBlJtJ0DaZlMfOa-LfiZXu9efS9NB/view?usp=drive_link
+```
+
 ## Actualizar
 
 ```bash
@@ -48,4 +54,5 @@ pip install --upgrade matekit
 ```bash
 https://sites.google.com/view/mateex-pypackage/
 ```
+
 

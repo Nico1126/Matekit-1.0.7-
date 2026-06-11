@@ -1,4 +1,3 @@
-import matekit
+z=30,420 + 28,820 + 25,681 + 19,324 + 19,300
 
-res = matekit.solve("2+2")
-print(res)
+print(z)

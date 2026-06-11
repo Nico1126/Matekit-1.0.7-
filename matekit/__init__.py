@@ -11,4 +11,3 @@ from .graficas import *
 from .calculadora import *
 from .solver import *
 from .solve import *
-from .cli import *
