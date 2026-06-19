@@ -4,7 +4,7 @@ Matekit
 
 Matekit is a modern Python mathematics library designed to make calculations, graphing, algebra, geometry, statistics, and mathematical utilities simple and powerful. It provides an easy-to-use API for students, developers, and anyone working with mathematics in Python.
 
-With Matekit, you can perform basic operations, solve equations, work with matrices, generate graphs, and use advanced mathematical tools in a clean and intuitive way.
+With Matekit, you can perform basic operations, solve equations, work with matrices, generate graphs, and use advanced mathematical tools in a clean and intuitive way:)
 
 ## Features
 
